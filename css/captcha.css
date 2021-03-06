@@ -1,0 +1,32 @@
+
+
+
+.viewCaptcha{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+	background-image:url('../img/bg-captcha.jpg');
+	background-color:#000;
+	padding:10px 20px;
+	letter-spacing: 1px;
+	display:inline;
+	width:auto;
+	height:20px;
+	float:left;
+}
+
+.icon-reload{
+	display:inline;
+	height:40px;
+	cursor:pointer;
+}
+img.icon-reload:hover{
+	display:inline;
+	height:40px;
+	cursor:pointer;
+	filter:brightness(120%);
+}
+
+
+.boxCaptcha{
+	float:left;
+}
