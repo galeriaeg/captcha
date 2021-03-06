@@ -18,12 +18,13 @@
 	display:inline;
 	height:40px;
 	cursor:pointer;
+	margin-left:2px;
 }
 img.icon-reload:hover{
 	display:inline;
 	height:40px;
 	cursor:pointer;
-	filter:brightness(120%);
+	filter:brightness(105%);
 }
 
 
