@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Entendo a estrutura e semântica do HTML5</title>
+		<link rel="stylesheet" href="css/captcha.css" />
+		<script type="text/javascript" src="js/captcha.js"></script>
+	</head>
+
+	<body onload="captcha();">
+
+		<form method="POST" name="formCaptcha" action="#">	
+			<section class="boxCaptcha">
+				<i id="viewCaptcha" class="viewCaptcha"></i>
+				<img src="img/bnt-reload.png" onclick="captcha()" title="Gerar novo código" class="icon-reload" /><br />
+				<input type="hidden" name="randCaptcha" id="randCaptcha" />
+				<input type="text" placeholder="informe captcha" name="meuCaptcha" onblur="validaCaptcha()" id="meuCaptcha" />
+			</section>
+
+		</form>
+
+	</body>
+</html>
