@@ -12,7 +12,7 @@ function validaCaptcha(){
 	var mc = document.getElementById('meuCaptcha').value;
 	var rc = document.getElementById('randCaptcha').value;
 	
-	if(mc != rc){
+	if((mc != rc)&&(mc != "")){
 		alert("Erro! Código verificador incorreto!");
 		document.getElementById('meuCaptcha').value="";
 		formCaptcha.meuCaptcha.focus();
